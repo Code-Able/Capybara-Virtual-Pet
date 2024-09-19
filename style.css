@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(197, 249, 250);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.game-container {
+background: #ddd;
+width:450px;
+border-radius: 10%;
+margin: 0 auto;
+border: 5px solid darkgrey;
+}
+
+.top-menu, .bottom-menu {
+    height: 75px;
+}
+
+.top-menu-item, .bottom-menu-item{
+    display:inline;
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+    margin:0 15px;
+    line-height: 75px;
+}
+
+
+.capybara {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #F6F6F6;
+    font-weight: 500;
+    font-size: 20px;
+    border: 5px solid darkgrey;
+    margin: 5px;
+}
+
+
+.main-img {
+    width: 250px;
+    height: 250px;
+}
+
+.material-symbols-outlined {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.material-symbols-outlined:hover:not(#bell) {
+    border-radius: 50%;
+    background-color: rgb(203, 201, 201);
+    color: black;
+}
+
